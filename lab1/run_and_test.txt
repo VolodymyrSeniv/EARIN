@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+Please check if you are inside the folder with the script and maps when compiling the code.
+to run the code, open the directory consisting the script itself and map and compile/run script. 
+The file is not pre-compiled since it can be open on different OS. 
+
+In the directory you can find 3 maps, the map is a .txt file with 0,1 separated by comas. 
+it can be modified according to representation: 
+
+	'0'-represents wall, 
+	'1'-represents path we can access, 
+	'2'-start, 
+	'3'-finish. 
+
+There is no limit on size of map
+
+IMPORTANT:
+For the correctness please place outer walls for the maze. The algorithm will stop when it goes outside of map. 
+
+To scecify map, you need to change file name of map on line 36 in the sript 'bfs_and_dfs.py'. 
+
+	Example: maze = extract_map('map.txt') to maze = extract_map('map2.txt').
+
+The program itself is a console application, when the script is running you will be asked to type in name of algorithm you want to use(all options displayed.). 
+=======
+Please check if you are inside the folder with the script and maps when compiling the code.
+to run the code, open the directory consisting the script itself and map and compile/run script. 
+The file is not pre-compiled since it can be open on different OS. 
+
+In the directory you can find 3 maps, the map is a .txt file with 0,1 separated by comas. 
+it can be modified according to representation: 
+
+	'0'-represents wall, 
+	'1'-represents path we can access, 
+	'2'-start, 
+	'3'-finish. 
+
+There is no limit on size of map
+
+IMPORTANT:
+For the correctness please place outer walls for the maze. The algorithm will stop when it goes outside of map. 
+
+To scecify map, you need to change file name of map on line 36 in the sript 'bfs_and_dfs.py'. 
+
+	Example: maze = extract_map('map.txt') to maze = extract_map('map2.txt').
+
+The program itself is a console application, when the script is running you will be asked to type in name of algorithm you want to use(all options displayed.). 
+>>>>>>> e3f102df6c8eec71306dce7ca31d3fd896937379
+Type the name of algorithm you want to test or 'end' to stop the script. 
